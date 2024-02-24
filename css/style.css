@@ -6,7 +6,7 @@
 }
 
 .clear{clear: both;}
-.container{max-width: 960px;padding: 0 2%;margin:0 auto;}
+.container{max-width: 960px; padding: 0 2%;margin:0 auto;}
 
 section.header-master{
 	width: 100%;
@@ -100,7 +100,9 @@ li.selected > span{
 }
 
 .bloco-1 span{
-    font-size: 15px;
+    font-size: 13px;
+	margin-top: 20px;
+	display: block;
 }
 
 .clear {
@@ -109,7 +111,7 @@ li.selected > span{
 
 .bloco-1 form input[type=email]{
 	display: inline-block;
-	width: 300px;
+	width: 400px;
 	height: 40px;
 	border: 2px solid #AFAEB1;
 	border-radius: 5px;
@@ -118,9 +120,14 @@ li.selected > span{
 
 .bloco-1 form input[type=submit]{
 	display: inline-block;
-	width: 80px;
+	width: 180px;
 	height: 40px;
-	border: 2px solid #AFAEB1;
+	background-color: #0fbcdc;
+	color: white;
+	border: 1px solid #AFAEB1;
 	border-radius: 5px;
+}
 
+.bloco-2 img {
+	border: 5px solid rgb(0, 0, 0, 0);
 }
