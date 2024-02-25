@@ -6,7 +6,7 @@
 }
 
 .clear{clear: both;}
-.container{max-width: 960px; padding: 0 2%;margin:0 auto;}
+.container{max-width: 960px; padding: 0 2%; margin:0 auto;}
 
 section.header-master{
 	width: 100%;
@@ -130,4 +130,40 @@ li.selected > span{
 
 .bloco-2 img {
 	border: 5px solid rgb(0, 0, 0, 0);
+}
+
+section.difereciais{
+	padding: 40px 0;
+}
+
+section.diferenciais, .container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.diferencial-single{
+	width: 30.3%;
+	margin-bottom: 30px;
+}
+
+.diferencial-single img{
+	margin: 10px;
+	max-width: 100%;
+}
+
+.diferencial-single h2{
+	margin: 10px;
+	font-size: 25px;
+	color: black;
+}
+
+.diferencial-single h2 > b{
+	color: #0fbcdc;
+}
+
+.diferencial-single p{
+	margin: 10px;
+	font-weight: bold;
+	font-size: 14px;
+	color: black;
 }
