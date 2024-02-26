@@ -141,6 +141,10 @@ section.diferenciais, .container{
 	flex-wrap: wrap;
 }
 
+section.difereciais > .container{
+	max-width: 1280px;
+}
+
 .diferencial-single{
 	width: 30.3%;
 	margin-bottom: 30px;
@@ -166,4 +170,34 @@ section.diferenciais, .container{
 	font-weight: bold;
 	font-size: 14px;
 	color: black;
+}
+
+.sobre > .container{
+	max-width: 1280px;
+}
+
+.sobre-1{
+	float: left;
+	width: 50%;
+}
+
+.sobre-1 img{
+	max-width: 100%;
+}
+
+.sobre-2{
+	float: right;
+	width: 50%;
+}
+
+.sobre-2 h2{
+	color: black;
+	font-size: 15px;
+	margin: 20px;
+}
+
+.sobre-2 h2 > b{
+	color: #0fbcdc;
+	font-size: 15px;
+	margin: 5px;
 }
