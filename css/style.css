@@ -147,7 +147,6 @@ section.difereciais > .container{
 
 .diferencial-single{
 	width: 30.3%;
-	margin-bottom: 30px;
 }
 
 .diferencial-single img{
@@ -188,6 +187,7 @@ section.difereciais > .container{
 .sobre-2{
 	float: right;
 	width: 50%;
+	margin-bottom: 20px;
 }
 
 .sobre-2 h2{
@@ -217,9 +217,14 @@ section.difereciais > .container{
 	max-width: 100%;
 }
 
+section > .depoimentos{
+	background-color: #0fbcdc;
+}
+
 section.depoimentos, .container{
 	display: flex;
 	flex-wrap: wrap;
+	max-width: 1280px;
 }
 
 .depoimento{
@@ -231,6 +236,7 @@ section.depoimentos, .container{
 	float: left;
 	margin: 0 auto;
 	width: 25%;
+	max-width: 100%;
 }
 
 .depoimento-single{
@@ -240,4 +246,33 @@ section.depoimentos, .container{
 
 .depoimento-single img{
 	max-width: 100%;
+}
+
+.line-titulo{
+	max-width: 800px;
+	margin:0 auto;
+	position: relative;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.ln1{
+	position: absolute;
+	height: 2px;
+	width: 100%;
+	top:20px;
+	background: #0fbcdc;
+}
+
+.line-titulo h2{
+	margin-top: 7px;
+	position: relative;
+	background: white;
+	color: #0fbcdc;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	padding:0 20px;
+	text-transform: uppercase;
 }
