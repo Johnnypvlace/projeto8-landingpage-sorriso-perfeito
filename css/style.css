@@ -217,8 +217,8 @@ section.difereciais > .container{
 	max-width: 100%;
 }
 
-section > .depoimentos{
-	background-color: #0fbcdc;
+section > .fundoonda{
+	margin-top: -80px;
 }
 
 section.depoimentos, .container{
@@ -275,4 +275,21 @@ section.depoimentos, .container{
 	font-size: 20px;
 	padding:0 20px;
 	text-transform: uppercase;
+}
+
+.onda{
+	position: relative;
+}
+
+.onda, .chamada h2 {
+	color: white;
+	display: inline;
+    font-size: 44px;
+	text-align: center;
+}
+
+.chamada{
+    top: 50%; /* Ajuste a porcentagem conforme necessário */
+    transform: translateY(-350%);
+
 }
