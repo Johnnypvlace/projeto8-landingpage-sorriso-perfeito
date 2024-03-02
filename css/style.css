@@ -286,10 +286,23 @@ section.depoimentos, .container{
 	display: inline;
     font-size: 44px;
 	text-align: center;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .chamada{
     top: 50%; /* Ajuste a porcentagem conforme necessário */
     transform: translateY(-350%);
-
 }
+
+section.etapas{
+	padding: 40px 0;
+}
+
+.etapas{
+	background-color: #0fbcdc;
+}
+
+section.etapas h2{
+	text-align: center;
+}
+
