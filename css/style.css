@@ -295,14 +295,45 @@ section.depoimentos, .container{
 }
 
 section.etapas{
+	margin-top: -60px;
 	padding: 40px 0;
 }
 
 .etapas{
 	background-color: #0fbcdc;
+	color: white;
 }
 
 section.etapas h2{
-	text-align: center;
+	margin: 0 auto;
 }
 
+.etapas__single{
+	float: left;
+	width: 50%;
+}
+
+.etapas__group img{
+	float: left;
+	width: 30%;
+}
+
+.etapas__group{
+	margin-top: 30px;
+}
+
+.etapas__group p{
+	padding: 30px 50px;
+	margin-top: 35px;
+	float: left;
+	width: 110%;
+}
+
+.groupmid p{
+	padding-left: 250px;
+}
+
+
+.etapas > .container{
+	max-width: 1300px;
+}
