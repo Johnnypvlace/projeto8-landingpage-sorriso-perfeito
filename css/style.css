@@ -3,6 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Roboto";
+	overflow-x: hidden;
 }
 
 .clear{clear: both;}
@@ -308,6 +309,7 @@ section.etapas h2{
 	margin: 0 auto;
 }
 
+/*
 .etapas__single{
 	float: left;
 	width: 50%;
@@ -333,7 +335,7 @@ section.etapas h2{
 .groupmid p{
 	padding-left: 250px;
 }
-
+*/
 
 .etapas > .container{
 	max-width: 1300px;
@@ -341,15 +343,21 @@ section.etapas h2{
 
 .etapas__group2{
     width: 100%;
-    margin-bottom: 40px;
+	margin-top: 40px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+	margin-left: 100px;
+	margin-bottom: -25px;
+	overflow: visible
+
 }
 
 .circle {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
-    border: 1px solid #ccc;
-    float: left;
+    border: 1px solid white;
     margin-right: 20px; 
     position: relative;
 }
@@ -359,4 +367,24 @@ section.etapas h2{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+.etapas__descricao{
+    /*text-align: center;*/
+	position: relative;
+}
+
+.etapas__descricao h2{
+	font-size: 20px;
+
+}
+
+.etapas__descricao h3{
+	font-size: 17px;
+
+}
+
+.etapas__descricao p{
+	font-size: 14px;
+
 }
