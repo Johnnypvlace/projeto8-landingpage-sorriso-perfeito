@@ -24,9 +24,8 @@ section.header-master header{
 
 div.logo{
 	float: left;
-	width: 170px;
-	height: 110px;
-    margin-top: -20px;
+	width: 180px;
+	height: 120px;
 	background-image: url('../images/logo.png');
 	background-size: 100% 100%;
 }
@@ -45,6 +44,7 @@ header li{
 	display: inline-block;
 	font-size: 16px;
 	color: black;
+	margin-top: 8px;
     font-weight: bold;
 }
 
@@ -54,7 +54,7 @@ header li > a{
 }
 
 li.selected{
-	color:#0fbcdc;
+	color:#00BEE0;
 	position: relative;
 }
 
@@ -63,7 +63,7 @@ li.selected > span{
 	bottom:0;
 	width: 17px;
 	height: 3px;
-	background: #0fbcdc;
+	background: #00BEE0;
 }
 
 .content-header{
@@ -88,7 +88,7 @@ li.selected > span{
 }
 
 .bloco-1 h2 {
-    color: #0fbcdc;
+    color: #00BEE0;
     font-weight: normal;
     font-size: 32px;
 	margin-bottom: 10px;
@@ -123,7 +123,7 @@ li.selected > span{
 	display: inline-block;
 	width: 180px;
 	height: 40px;
-	background-color: #0fbcdc;
+	background-color: #00BEE0;
 	color: white;
 	border: 1px solid #AFAEB1;
 	border-radius: 5px;
@@ -162,7 +162,7 @@ section.difereciais > .container{
 }
 
 .diferencial-single h2 > b{
-	color: #0fbcdc;
+	color: #00BEE0;
 }
 
 .diferencial-single p{
@@ -200,7 +200,7 @@ section.difereciais > .container{
 }
 
 .sobre-2 h2 > b{
-	color: #0fbcdc;
+	color: #00BEE0;
 	font-size: 48px;
 	margin: 5px;
 }
@@ -228,21 +228,21 @@ section.depoimentos, .container{
 	max-width: 1280px;
 }
 
-.depoimento{
-	float: left;
-	width: 100%;
+.depoimento {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.depoimento img{
-	float: left;
-	margin: 0 auto;
-	width: 25%;
-	max-width: 100%;
+.depoimento img {
+    width: 100%;
+    height: auto;
+	margin-top: 10px;
 }
 
-.depoimento-single{
-	width: 100%;
-	margin-bottom: 10px;
+.depoimento-single {
+    flex: 0 0 25%;
+    max-width: 25%;
+    margin-bottom: 10px;
 }
 
 .depoimento-single img{
@@ -255,6 +255,7 @@ section.depoimentos, .container{
 	position: relative;
 	text-align: center;
 	margin-bottom: 25px;
+	margin-top: 20px;
 }
 
 .ln1{
@@ -262,14 +263,14 @@ section.depoimentos, .container{
 	height: 2px;
 	width: 100%;
 	top:20px;
-	background: #0fbcdc;
+	background: #00BEE0;
 }
 
 .line-titulo h2{
 	margin-top: 7px;
 	position: relative;
 	background: white;
-	color: #0fbcdc;
+	color: #00BEE0;
 	display: inline-block;
 	text-align: center;
 	font-weight: bold;
@@ -291,8 +292,8 @@ section.depoimentos, .container{
 }
 
 .chamada{
-    top: 50%; /* Ajuste a porcentagem conforme necessário */
-    transform: translateY(-350%);
+    top: 50%;
+    transform: translateY(-220%);
 }
 
 section.etapas{
@@ -301,7 +302,7 @@ section.etapas{
 }
 
 .etapas{
-	background-color: #0fbcdc;
+	background-color: #00BEE0;
 	color: white;
 }
 
@@ -309,33 +310,6 @@ section.etapas h2{
 	margin: 0 auto;
 }
 
-/*
-.etapas__single{
-	float: left;
-	width: 50%;
-
-}
-
-.etapas__group img{
-	float: left;
-	width: 30%;
-}
-
-.etapas__group{
-	margin-top: 30px;
-}
-
-.etapas__group p{
-	padding: 30px 50px;
-	margin-top: 35px;
-	float: left;
-	width: 110%;
-}
-
-.groupmid p{
-	padding-left: 250px;
-}
-*/
 
 .etapas > .container{
 	max-width: 1300px;
@@ -370,7 +344,6 @@ section.etapas h2{
 }
 
 .etapas__descricao{
-    /*text-align: center;*/
 	position: relative;
 }
 
@@ -387,4 +360,15 @@ section.etapas h2{
 .etapas__descricao p{
 	font-size: 14px;
 
+}
+
+.etapas > h2{
+	text-align: center;
+    margin: 0 auto;
+}
+
+.container > h4{
+	text-align: center;
+    margin: 0 auto;
+	font-size: 17px;
 }
