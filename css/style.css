@@ -372,3 +372,39 @@ section.etapas h2{
     margin: 0 auto;
 	font-size: 17px;
 }
+
+footer{
+    width: 100%;
+    background-color: #00BEE0;
+}
+
+footer ul li{
+    cursor: pointer;
+}
+
+
+.container-footer{
+    text-align: center;
+    font-size: 15px;
+}
+
+.bloco-1, .bloco-2, .bloco-3, .bloco-4 p{
+	color: white;
+}
+
+.w20{
+    width: 20%;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.container-footer h2{
+    color: #1c2d59;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.itens-footer{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
