@@ -98,12 +98,14 @@ li.selected > span{
     font-weight: normal;
     font-size: 18px;
 	margin-bottom: 10px;
+	color: black;
 }
 
 .bloco-1 span{
     font-size: 13px;
 	margin-top: 20px;
 	display: block;
+	color: black;
 }
 
 .clear {
@@ -374,6 +376,8 @@ section.etapas h2{
 }
 
 footer{
+	margin-top: 20px;
+	padding-top: 40px;
     width: 100%;
     background-color: #00BEE0;
 }
@@ -386,6 +390,7 @@ footer ul li{
 .container-footer{
     text-align: center;
     font-size: 15px;
+	margin-left: 80px;
 }
 
 .bloco-1, .bloco-2, .bloco-3, .bloco-4 p{
@@ -404,7 +409,54 @@ footer ul li{
     margin-bottom: 15px;
 }
 
-.itens-footer{
-    font-size: 15px;
-    font-family: 'Courier New', Courier, monospace;
+.bloco-1{
+
 }
+
+.bloco-2{
+}
+
+.bloco-2 h2{
+	margin-bottom: 10px;
+}
+
+.bloco-2, .fa-solid, .fa-regular{
+	margin-top: 5px;
+}
+
+.bloco-2 h3{
+	margin-top: 20px;
+	color: #1c2d59;
+}
+
+.bloco-3{
+	margin-top: 1px;
+}
+
+.bloco-3 li{
+	margin-bottom: 7px;
+	margin-top: 12px;
+}
+
+.bloco-4{
+
+}
+.bloco-4 li{
+	display: inline-block;
+	color: #1c2d59;
+	font-size: 30px;
+}
+
+.bloco-4 img{
+	width: 200px;
+}
+
+.footer-2{
+	display: inline;
+}
+
+.footer-2 p{
+	display: flex;
+	align-items: center;
+}
+
