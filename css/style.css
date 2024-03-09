@@ -152,7 +152,8 @@ section.difereciais > .container{
 	width: 30.3%;
 }
 
-.diferencial-single img{
+.diferencial-single 
+{
 	margin: 10px;
 	max-width: 100%;
 }
@@ -460,3 +461,165 @@ footer ul li{
 	align-items: center;
 }
 
+
+
+
+
+@media screen and (max-width: 1600px){
+
+	.sobre-2 h2{
+		max-width: 100%;
+		font-size: 20px;
+	}
+
+	.sobre-2 h2 > b{
+		font-size: 40px;
+	}
+
+	.onda, .chamada h2, i {
+		font-size: 37px;
+	}
+
+}
+
+@media screen and (max-width: 1305px){
+
+	.sobre-2{
+		max-width: 100%;
+	}
+
+	.sobre-2 h2{
+		max-width: 100%;
+		font-size: 18px;
+		margin-top: 1px;
+	}
+
+	.sobre-2 h2 > b{
+		font-size: 20px;
+	}
+
+	.onda, .chamada h2, i {
+		font-size: 30px;
+	}
+
+
+}
+
+@media screen and (max-width: 1150px){
+
+	.sobre-2{
+		max-width: 100%;
+	}
+
+	.sobre-2 h2{
+		font-size: 16px;
+	}
+
+	.sobre-2 h2 > b{
+		font-size: 18px;
+	}
+
+	.circle{
+		width: 60px;
+		height: 60px;
+	}
+
+	.etapas h2{
+		font-size: 16px;
+	}
+
+	.etapas h4{
+		font-size: 14px;
+	}
+
+	.etapas__descricao h2{
+		font-size: 18px;
+	
+	}
+	
+	.etapas__descricao h3{
+		font-size: 15px;
+	
+	}
+	
+	.etapas__descricao p{
+		font-size: 13px;
+	
+	}
+}
+
+
+@media screen and (max-width: 1120px){
+
+	.bloco-1 form input[type=email]{
+		width: 300px;
+	
+	}
+
+	.bloco-2 img {
+		width: 30%;
+	}
+
+}
+
+@media screen and (max-width: 1020px){
+
+	.sobre-2{
+		width: 100%;
+	}
+
+	.sobre-1{
+		width: 100%;
+	}
+
+
+}
+
+@media screen and (max-width: 930px){
+
+	.bloco-1 form input[type=email]{
+		width: 200px;
+	
+	}
+
+	.bloco-1 form input[type=submit]{
+		width: 130px;
+		font-size: 14px;
+	}
+
+}
+
+@media screen and (max-width: 885px){
+
+	.difereciais{
+		display: inline;
+		align-items: center;
+	}
+
+	.diferencial-single{
+		width: 25%;
+		align-items: center;
+	}
+
+	.diferencial-single{
+		width: 40%;
+	}
+
+	.onda, .chamada h2, i {
+		font-size: 25px;
+	}
+
+	section, .depoimentos{
+		float: none;
+	}
+
+}
+
+@media screen and (max-width: 720px){
+
+	.onda, .chamada h2, i {
+		font-size: 21px;
+	}
+
+
+}
